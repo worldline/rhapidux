@@ -1,0 +1,7 @@
+---
+  env:
+    mocha: true
+
+  rules:
+    # Because chai's got some expressions like '.exist', '.true'...
+    no-unused-expressions: 0

@@ -1,0 +1,6 @@
+#!/usr/bin/env node
+
+const Server = require('../build/server/server');
+
+Server.start()
+  .catch((err) => console.error(err, err.stack));
